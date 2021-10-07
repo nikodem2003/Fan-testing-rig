@@ -1,0 +1,555 @@
+{
+  "uuid": "e7f1e25db43a22f49c19ce5643d683be",
+  "path": "Offline/Fan testing rig, github",
+  "name": "Fan testing rig, github",
+  "content": "",
+  "created_at": "2021-10-07 15:04:20",
+  "updated_at": "2021-10-07 15:05:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "17d4216d775a3bdeb37ac5c2843ecb95",
+      "title": "main unit",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e0b0d01b6e0d44dbab9db0ad79a427bc": 2,
+        "a9aa2b14f188405792fa87ac344499a4": 7,
+        "a1a68e8402b9461199345d2cae776c3f": 7,
+        "f5b1d9403e49471cab43bc5a1bec336f": 2,
+        "c2ac013ecea24181b089a58d9adaf25f": 2,
+        "b4f63d619a9f4b39943200bcd2f0a9e2": 1,
+        "58f496743fab47fc997dacedc92ae92b": 2,
+        "3721972c581d4f99b226effb1db7a790": 1,
+        "06f4343564f5546e08729e63add2fcb5": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DS1009-08AT1NX-0A2",
+          2,
+          "DIP-8_L10.0-W6.5-P2.54-LS7.6-BL",
+          "U2,U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CONNFLY",
+            "BOM_Manufacturer Part": "DS1009-08AT1NX-0A2",
+            "BOM_Supplier Part": "C72124",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "881d017e96d048aaa94a5166ad55a273",
+            "uuid": "06f4343564f5546e08729e63add2fcb5"
+          }
+        ],
+        [
+          "M02",
+          2,
+          "SCREWTERMINAL-5MM-2",
+          "JP2,JP3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "182636cd88484b0e8eca2b5e5ff2507e",
+            "uuid": "58f496743fab47fc997dacedc92ae92b"
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          1,
+          "LED-TH_BD3.0_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "BOM_Supplier Part": "C84774",
+            "BOM_Supplier": "LCSC",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "1k",
+          7,
+          "R_AXIAL-0.3",
+          "R1,R4,R3,R5,R2,R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          7,
+          "HDR-M-2.54_1X2",
+          "J8,J5,J10,J3,J7,J4,J2",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x2",
+          1,
+          "HDR-F-2.54_2X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C239342",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3a30720bc96543fd9ac6f339cf522099",
+            "uuid": "b4f63d619a9f4b39943200bcd2f0a9e2"
+          }
+        ],
+        [
+          "WSP4409A",
+          2,
+          "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "Q2,Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2880527",
+            "BOM_Manufacturer": "WINSOK微硕",
+            "BOM_Manufacturer Part": "WSP4409A",
+            "puuid": "1fe0adc377c7472ba321d68db1c050fa",
+            "uuid": "c2ac013ecea24181b089a58d9adaf25f"
+          }
+        ],
+        [
+          "R_3386P_US",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP2,RP1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          2,
+          "HDR-M-2.54_1X4",
+          "J6,J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "SS12F23L5",
+          2,
+          "SW-TH_XKBCONNECTIVITY_SS12F23L5",
+          "SW1,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2884749",
+            "BOM_Manufacturer": "XKB Connectivity(中国星坤)",
+            "BOM_Manufacturer Part": "SS12F23L5",
+            "puuid": "e065fdc89be9451e80ee1c08f4627576",
+            "uuid": "1d4cc7b34fd041d9b8c2639ba8dbef9d"
+          }
+        ],
+        [
+          "0",
+          8,
+          "R_AXIAL-0.3",
+          "R14,R13,R10,R12,R8,R18,R11,R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "ESP-12F(ESP8266MOD)",
+          2,
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
+          "U4,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "BOM_Supplier Part": "C82891",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "b5953d65a4054165b11dfc39ebcbd953"
+          }
+        ],
+        [
+          "R_3386P_US",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP4,RP3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ]
+      ],
+      "updateTime": 1633064973,
+      "createTime": 1632458902,
+      "histories": [],
+      "created_at": "2021-09-24 06:48:22",
+      "updated_at": "2021-10-01 07:09:33"
+    },
+    {
+      "uuid": "c9cda4702c3b30cfd41061619fc5c9f7",
+      "title": "PWM controll",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1d4cc7b34fd041d9b8c2639ba8dbef9d": 2,
+        "b5953d65a4054165b11dfc39ebcbd953": 2,
+        "e0b0d01b6e0d44dbab9db0ad79a427bc": 2,
+        "a1a68e8402b9461199345d2cae776c3f": 8,
+        "b82150387a2041b4afd55b90c79c5923": 2,
+        "bc209689a02746cfb71ba0eceb6c065d": 2,
+        "b9e9f77f67de4fdebf03036bbef94f08": 2,
+        "7ea3ad0788d44b1fae44433b48ab0207": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DS1009-08AT1NX-0A2",
+          2,
+          "DIP-8_L10.0-W6.5-P2.54-LS7.6-BL",
+          "U2,U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CONNFLY",
+            "BOM_Manufacturer Part": "DS1009-08AT1NX-0A2",
+            "BOM_Supplier Part": "C72124",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "881d017e96d048aaa94a5166ad55a273",
+            "uuid": "06f4343564f5546e08729e63add2fcb5"
+          }
+        ],
+        [
+          "M02",
+          2,
+          "SCREWTERMINAL-5MM-2",
+          "JP2,JP3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "182636cd88484b0e8eca2b5e5ff2507e",
+            "uuid": "58f496743fab47fc997dacedc92ae92b"
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          1,
+          "LED-TH_BD3.0_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "BOM_Supplier Part": "C84774",
+            "BOM_Supplier": "LCSC",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "1k",
+          7,
+          "R_AXIAL-0.3",
+          "R1,R4,R3,R5,R2,R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          7,
+          "HDR-M-2.54_1X2",
+          "J8,J5,J10,J3,J7,J4,J2",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x2",
+          1,
+          "HDR-F-2.54_2X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C239342",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3a30720bc96543fd9ac6f339cf522099",
+            "uuid": "b4f63d619a9f4b39943200bcd2f0a9e2"
+          }
+        ],
+        [
+          "WSP4409A",
+          2,
+          "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "Q2,Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2880527",
+            "BOM_Manufacturer": "WINSOK微硕",
+            "BOM_Manufacturer Part": "WSP4409A",
+            "puuid": "1fe0adc377c7472ba321d68db1c050fa",
+            "uuid": "c2ac013ecea24181b089a58d9adaf25f"
+          }
+        ],
+        [
+          "R_3386P_US",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP2,RP1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          2,
+          "HDR-M-2.54_1X4",
+          "J6,J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "SS12F23L5",
+          2,
+          "SW-TH_XKBCONNECTIVITY_SS12F23L5",
+          "SW1,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2884749",
+            "BOM_Manufacturer": "XKB Connectivity(中国星坤)",
+            "BOM_Manufacturer Part": "SS12F23L5",
+            "puuid": "e065fdc89be9451e80ee1c08f4627576",
+            "uuid": "1d4cc7b34fd041d9b8c2639ba8dbef9d"
+          }
+        ],
+        [
+          "15*10.5*21H型散热块（黑色）",
+          2,
+          "HEATSINK-TH_L15.5-W10.5-XSD1226-005",
+          "U7,U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C116600",
+            "BOM_Manufacturer": "XSD(鑫顺达)",
+            "BOM_Manufacturer Part": "15*10.5*21H型散热块（黑色）",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2469795469594920b148c2fc43b14fd1",
+            "uuid": "7ea3ad0788d44b1fae44433b48ab0207"
+          }
+        ],
+        [
+          "0",
+          8,
+          "R_AXIAL-0.3",
+          "R18,R13,R8,R9,R11,R12,R10,R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "KA7906TU",
+          2,
+          "TO-220-3_L10.0-W4.5-P2.54-T",
+          "U5,U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FAIRCHILD",
+            "BOM_Manufacturer Part": "KA7906TU",
+            "BOM_Supplier Part": "C112610",
+            "puuid": "fb8b10620b5a459d9b03fd14987346f4",
+            "uuid": "b9e9f77f67de4fdebf03036bbef94f08"
+          }
+        ],
+        [
+          "ESP-12F(ESP8266MOD)",
+          2,
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
+          "U4,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "BOM_Supplier Part": "C82891",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "b5953d65a4054165b11dfc39ebcbd953"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C0805",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "1u",
+          2,
+          "CAP-D8.0×F3.5",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a9851cb1389b46d6ae905df8d90c7f73",
+            "uuid": "bc209689a02746cfb71ba0eceb6c065d"
+          }
+        ],
+        [
+          "R_3386P_US",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP4,RP3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ]
+      ],
+      "updateTime": 1633073104,
+      "createTime": 1632728122,
+      "histories": [],
+      "created_at": "2021-09-27 09:35:22",
+      "updated_at": "2021-10-01 09:25:04"
+    },
+    {
+      "uuid": "5cbbc88fe4c5ca7d946d802aa8fd3ab3",
+      "title": "Final, without pwm",
+      "filename": "Final, without pwm.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3eb1249f3ebb4284ae221b0379016582": 7,
+        "282f7786cb6144d097ae00194c3e3fb3": 2,
+        "182636cd88484b0e8eca2b5e5ff2507e": 2,
+        "bec79a4ea65a4f65ba290a03b598a762": 1,
+        "70aa5812f21f4991bf427395d51849f4": 7,
+        "3a30720bc96543fd9ac6f339cf522099": 1,
+        "1fe0adc377c7472ba321d68db1c050fa": 2,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 2,
+        "881d017e96d048aaa94a5166ad55a273": 2
+      },
+      "BOM": [],
+      "updateTime": 1632724841,
+      "createTime": 1632724841,
+      "histories": [],
+      "created_at": "2021-09-27 08:40:41",
+      "updated_at": "2021-09-27 08:40:41"
+    },
+    {
+      "uuid": "84766ba1b328d65ee6246235ff4727cd",
+      "title": "Final, with pwm",
+      "filename": "Final, with pwm.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e065fdc89be9451e80ee1c08f4627576": 2,
+        "3eb1249f3ebb4284ae221b0379016582": 15,
+        "21bb26c585544e17a64bb2b57131b3de": 2,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 2,
+        "a9851cb1389b46d6ae905df8d90c7f73": 2,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 4,
+        "fb8b10620b5a459d9b03fd14987346f4": 2,
+        "2469795469594920b148c2fc43b14fd1": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 2,
+        "182636cd88484b0e8eca2b5e5ff2507e": 2,
+        "bec79a4ea65a4f65ba290a03b598a762": 1,
+        "70aa5812f21f4991bf427395d51849f4": 7,
+        "3a30720bc96543fd9ac6f339cf522099": 1,
+        "1fe0adc377c7472ba321d68db1c050fa": 2,
+        "881d017e96d048aaa94a5166ad55a273": 2
+      },
+      "BOM": [],
+      "updateTime": 1633604597,
+      "createTime": 1633068077,
+      "histories": [],
+      "created_at": "2021-10-01 08:01:17",
+      "updated_at": "2021-10-07 13:03:17"
+    }
+  ],
+  "sort": [
+    "17d4216d775a3bdeb37ac5c2843ecb95",
+    "c9cda4702c3b30cfd41061619fc5c9f7"
+  ],
+  "title": "Fan testing rig, github",
+  "foldername": "Fan testing rig, github",
+  "schfilename": "Fan testing rig, github.json",
+  "schfilemtime": 1633611860499.3855
+}
